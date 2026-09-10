@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+chats/
+
+# --- secrets and local state: never commit ---
+# TLS material, including production private keys under wiki.puyanlot.fi/
+*.pem
+*.crt
+*.key
+
+# Build output and scratch
+build/
+tmp/
+.DS_Store
+
+client/build/
+
+# Python bytecode from the test suite
+__pycache__/
+*.pyc
